@@ -1,0 +1,39 @@
+.signup-login-bg{
+    background-color:#0d0d0d;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #ffffff;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ffffff;
+    color: #0d0d0d;
+    margin-bottom: 10px;
+}
+.form-el{
+    border: #ffffff 1px solid;
+    padding: 10px;
+    border-radius: 8px;
+    width: 350px;
+    padding: 15px;
+}
+.button-container{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.hide{
+    display: none;
+}

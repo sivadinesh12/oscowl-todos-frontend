@@ -1,0 +1,81 @@
+.home-bg{
+    background-color: #0d0d0d;
+    height: 100vh;
+    padding: 10px;
+}
+.home-input{
+    margin-right: 10px;
+    width: 40%;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    border: #ffffff 1px solid;
+}
+.home-input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.add-todo{
+    background-color: #cb7fe0;
+    height: 37px;
+    width: 100px;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.no-todos{
+    text-align: center;
+    color: #ffffff;
+    margin-top:100px;
+    font-size: 30px;
+}
+.todos-list{
+    height: 350px;
+    list-style-type: none;
+    overflow-y:auto;
+}
+.todo-item{
+    background-color: #0d0d0d;
+    color: #ffffff;
+    border: #ffffff 1px solid;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.delete-todo-btn{
+    background-color: #0d0d0d;
+    color: red;
+    border: red 1px solid;
+    border-radius: 8px;
+    padding: 5px;
+    
+}
+.update-btn{
+    background-color: #0d0d0d;
+    color:#cb7fe0;
+    border: #cb7fe0 1px solid;
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.save-btn{
+    background-color: #0d0d0d;
+    color: #ffffff;
+    border: #ffffff 1px solid;
+    border-radius: 8px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.update-input{
+    margin-top: 10px;
+}
