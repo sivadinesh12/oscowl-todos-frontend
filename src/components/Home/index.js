@@ -127,6 +127,11 @@ const Home = () => {
     }
   };
 
+  const handleLogout = () => {
+    localStorage.removeItem("jwt_token");
+    navigate("/login");
+  };
+
   return (
     <div className="home-bg">
       <h1 style={{ color: "#cb7fe0", fontSize: "50px", textAlign: "center" }}>
@@ -186,6 +191,9 @@ const Home = () => {
           ))}
         </ul>
       )}
+      <button className="update-btn" onClick={handleLogout}>
+        Log out
+      </button>
     </div>
   );
 };
