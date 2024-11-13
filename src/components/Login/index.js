@@ -23,7 +23,7 @@ const Login = () => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(user),
     };
-    const url = "http://localhost:10000/signup";
+    const url = "https://oscowl-todos-assignment.onrender.com/signup";
 
     try {
       const response = await fetch(url, options);
@@ -48,7 +48,7 @@ const Login = () => {
       body: JSON.stringify(user),
     };
 
-    const url = "http://localhost:10000/login";
+    const url = "https://oscowl-todos-assignment.onrender.com/login";
 
     try {
       const response = await fetch(url, options);
